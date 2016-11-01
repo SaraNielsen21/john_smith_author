@@ -27,14 +27,14 @@
             
             <div class="index">
                 <h1>John's Books</h1><br>
-                    <h4 class="col-sm-6">"One of today's best thrillest novelist. <i>Men of the Mountains</i> is a must read for everyone!" - J.K. Rowling</h4>
+                    <h4 class="col-sm-6">"One of today's best thriller novelist. <i>Men of the Mountains</i> is a must read for everyone!" - J.K. Rowling</h4>
                     <h4 class="col-sm-6">Don't miss out on his newest comeback novel <i>Barefoot Trucker</i>, available December 15th!</h4><br>
                 <div class="container col-sm-6">
                     <img class="img-responsive book" src="img/content/book2.png" alt="Men of the Mountain"/>
                 </div>
                 <div class="container col-sm-6">
                     <img class="img-responsive book" src="img/content/book1.png" alt="Men of the Mountain"/>
-                </div><br clear="all"/>
+                </div><br/>
                 <h1>Get Connected!</h1>
                 <h4>Please feel free to hire John to speak, ask him a question, sign up for his newsletter, and follow him on twitter and facebook! If you have any suggestions or concerns about the website please leave us a message below!</h4><br>
 
@@ -54,7 +54,7 @@
                   <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <textarea type = "text" class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+                                <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
                             </div>
                         </div>
                   </div>
