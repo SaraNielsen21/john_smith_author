@@ -1,5 +1,6 @@
 <!--Navigation Bar-->
 
+
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -12,10 +13,12 @@
         <span class="icon-bar"></span>
       </button>
 
+
       <!-- Title on nav bar -->
       <a class="navbar-left"><img src="img/content/john_smith.png" alt="Main Graphic" width="50" height="50" style="padding:2px"></a>
       <a class="navbar-brand" href="index.php">John Smith</a>
     </div>
+
 
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
@@ -31,3 +34,4 @@
     </div>
   </div>
 </nav>
+
