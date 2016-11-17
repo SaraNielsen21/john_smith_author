@@ -15,6 +15,7 @@
     <div id="amazon-root"></div>
 <script type="text/javascript">
 
+// Amazon log in
   window.onAmazonLoginReady = function() {
     amazon.Login.setClientId('amzn1.application-oa2-client.61cb7df373a44c39800bdfa39d871e72');
   };

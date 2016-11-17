@@ -6,7 +6,7 @@ $r = curl_exec($c);
 curl_close($c);
 $d = json_decode($r);
  
-if ($d->aud != 'YOUR-CLIENT-ID') {
+if ($d->aud != 'amzn1.application-oa2-client.61cb7df373a44c39800bdfa39d871e72') {
   // the access token does not belong to us
   header('HTTP/1.1 404 Not Found');
   echo 'Page not found';
