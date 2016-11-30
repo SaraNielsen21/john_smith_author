@@ -40,17 +40,19 @@
                 Password:<br>
                 <input type="text" class="form-control" name="password" placeholder="Password"><br/>
                 <input type="submit" class="btn btn-primary submit" value="Submit">
+                <!-- // Amazon log in button -->
                 <a href="#" id="LoginWithAmazon">
-  <img border="0" alt="Login with Amazon"
-    src="https://images-na.ssl-images-amazon.com/images/G/01/lwa/btnLWA_gold_156x32.png"
-    width="156" height="32" />
+                <img border="0" alt="Login with Amazon"
+                  src="https://images-na.ssl-images-amazon.com/images/G/01/lwa/btnLWA_gold_156x32.png"
+                  width="156" height="32" />
 </a>
 
+<!-- //Amazon log in -->
 <script type="text/javascript">
 
   document.getElementById('LoginWithAmazon').onclick = function() {
     options = { scope : 'profile' };
-    amazon.Login.authorize(options, 'https://ec2-35-160-178-198.us-west-2.compute.amazonaws.com/handle_login.php');
+    amazon.Login.authorize(options, 'https://authorjohnsmith.com/handle_login.php');
     return false;
   };
 
